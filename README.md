@@ -33,3 +33,7 @@ This repository contains source code examples to support my course [Spring Data 
 * Like Spring Framework Guru on [Facebook](https://www.facebook.com/springframeworkguru/)
 * Follow Spring Framework Guru on [Twitter](https://twitter.com/spring_guru)
 * Connect with John Thompson on [LinkedIn](http://www.linkedin.com/in/springguru)
+
+# 1. Get Beers
+
+http://localhost:8080/api/v1/beers

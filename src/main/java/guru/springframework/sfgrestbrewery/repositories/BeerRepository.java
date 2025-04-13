@@ -6,10 +6,13 @@ import guru.springframework.sfgrestbrewery.domain.BeerStyleEnum;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 import java.util.UUID;
 
 
+//@RepositoryRestResource(path = "beer", collectionResourceRel = "beer")
+// api/v1//beer
 public interface BeerRepository extends JpaRepository<Beer, UUID> {
     Page<Beer> findAllByBeerName(String beerName, Pageable pageable);
 
